@@ -1,0 +1,181 @@
+ body {font-family:  Arial, Helvetica, sans-serif; background-color: #fff8e7;}
+        input[type=text], input[type=password], input[type=number]{ 
+            width: 90%; 
+            padding:  12px 20px; 
+            margin:  8px 17px; 
+            display:  inline-block; 
+            border:  1px solid #ccc; 
+            box-sizing:  border-box;}
+        button {
+            background-color: #ca8f42;
+            font-weight: bold; 
+            color: white; 
+            padding: 14px 20px; 
+            margin: 8px 17px; 
+            border: none; 
+            cursor: pointer; 
+            width: 90%;}
+        button:hover {opacity: 0.8;}
+        .imgcontainer { 
+            margin: 0px 0px 0px 220px;}
+        img.logo { 
+            width:  40%; 
+            border-radius: 50%;}
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-left: 0;
+        }
+        .table-container{
+            max-width: fit-content;
+            max-height: 320px;
+            overflow-y: auto;
+        }
+        table th,
+        table td {
+            padding: 12px;
+            border: 1px solid #ccc;
+            text-align: left;
+        }
+        table th {
+            background-color: #ca8f42;
+            color: white;}
+        a {
+            text-decoration: none;
+            color: #333;}
+        a:hover {
+            color: #666;}    
+        .container { 
+            padding: 16px;}
+        .fullcontainer { 
+            max-height: 400;
+            max-width: 350px; 
+            margin: 8px 250px;
+            box-shadow: 1px 1px 5px #47251e;}
+        .fullcontainer2 { 
+            max-width: 900px; }
+        .logoutbtn { 
+            text-align: right;
+            margin-top: 10px;
+            display: inline-block;
+            background-color: #47251e;
+            color: white; 
+            padding: 10px 20px; 
+            border: none; 
+            cursor: pointer; 
+            text-decoration: none;
+            border-radius: 5px;}
+        .sidenav { height: 100%; 
+            width: 200px; 
+            position: fixed; 
+            z-index: 1; 
+            top: 0; 
+            left: 0; 
+            background-color: #47251e; 
+            overflow-x: hidden;
+            padding-top: 20px;}
+        .delete-button,
+        .edit-button {
+            font-weight: bold;
+            display: inline-block;
+            background-color: #47251e;
+            color: white; 
+            padding: 1px 15px; 
+            border: none; 
+            cursor: pointer; 
+            text-decoration: none;
+            border-radius: 5px;}
+        .delete-button {
+            background-color: #5b3e31;
+            color: white}
+        .delete-button:hover {
+            background-color: #47251e;
+            color: white;}
+        .edit-button {
+            background-color: #ca8f55;
+            color: white;}
+        .edit-button:hover {
+            background-color: #ca8f42;
+            color: white;}
+        .category-filter a.view-all { 
+            background-color: #47251e; 
+            color: #fff; 
+            padding: 6px 10px; 
+            border-radius: 4px; 
+            text-decoration: none;
+            margin-right: 10px;}
+        .category-filter .dropdown-container { 
+            position: relative; 
+            display: inline-block; 
+            margin-right: 10px;}
+        .category-filter input[name="category"] {
+            padding: 6px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            width: 200px;
+            cursor: pointer;
+            background-color: #fff;
+        }
+        .category-filter .dropdown-content {
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 200px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            display: none;
+            padding: 0;
+            margin: 0;
+            list-style-type: none;
+        }
+        .category-filter .dropdown-content a {
+            display: block;
+            padding: 6px 10px;
+            text-decoration: none;
+            color: #333;
+            transition: background-color 0.3s;
+        }
+        .category-filter .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+        .category-filter .dropdown-container:hover .dropdown-content {
+            display: block;}
+        /* Styles for the pop-up window */
+        .modal-content.open {
+            transform: translate(-50%, -50%) scale(1);
+            opacity: 1;
+        }
+        .modal-overlay {
+            background-color: #fff8e7;
+            display: none;
+            position: fixed;
+            z-index: 999;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        .modal-content {
+            background-color: #fff8e7;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 20px;
+            border: 1px solid #888;
+            width: 400px;
+            height: 440px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            max-height: 80%;
+            overflow-y: auto;
+        }
+        .edit-product.label {
+            color:#47251e;
+        }
+    th.center, td.center, h2.center{
+            text-align: center;	
+            }
